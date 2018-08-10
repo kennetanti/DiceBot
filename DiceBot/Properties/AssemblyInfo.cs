@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("DiceBot")]
 [assembly: AssemblyDescription("Automatic and flexible Betting bot for all the big dice sites")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Seuntjie")]
-[assembly: AssemblyProduct("DiceBot")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCompany("HAX CORP")]
+[assembly: AssemblyProduct("RiceThot")]
+[assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
