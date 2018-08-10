@@ -124,13 +124,17 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GraphQL.Client, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GraphQL.Client.1.0.3\lib\netstandard2.0\GraphQL.Client.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="GraphQL, Version=0.17.3.768, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GraphQL.0.17.3\lib\net45\GraphQL.dll</HintPath>
     </Reference>
-    <Reference Include="GraphQL.Common, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="GraphQL-Parser, Version=2.0.0.17, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GraphQL-Parser.2.0.0\lib\net45\GraphQL-Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="GraphQL.Client, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GraphQL.Client.1.0.3\lib\netstandard2.0\GraphQL.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="GraphQL.Common, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\GraphQL.Common.1.0.3\lib\netstandard2.0\GraphQL.Common.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="JDCAPI">
       <HintPath>..\..\jdcapi\jdcapi\Bin\Debug\JDCAPI.dll</HintPath>
@@ -357,9 +361,6 @@
     </Compile>
     <Compile Include="Proxy.Designer.cs">
       <DependentUpon>Proxy.cs</DependentUpon>
-    </Compile>
-    <Compile Include="rollin.cs">
-      <SubType>Code</SubType>
     </Compile>
     <Compile Include="SafeDice.cs" />
     <Compile Include="SavedItem.cs" />

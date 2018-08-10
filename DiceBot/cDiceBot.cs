@@ -5021,7 +5021,7 @@ namespace DiceBot
                     case "MoneroDice": CurrentSite = new MoneroDice(this); break;
                     case "moneypot": CurrentSite = new moneypot(this); break;
                     case "PD": CurrentSite = new PD(this); break;
-                    case "rollin": CurrentSite = new rollin(this); break;
+                    //case "rollin": CurrentSite = new rollin(this); break;
                     case "SafeDice": CurrentSite = new SafeDice(this); break;
                     case "SatoshiDice": CurrentSite = new SatoshiDice(this); break;
                     case "Bitvest": CurrentSite = new Bitvest(this); break;
@@ -5074,7 +5074,7 @@ namespace DiceBot
                         case "MoneroDice": CurrentSite = new MoneroDice(this); break;
                         case "moneypot": CurrentSite = new moneypot(this); break;
                         case "PD": CurrentSite = new PD(this); break;
-                        case "rollin": CurrentSite = new rollin(this); break;
+                        //case "rollin": CurrentSite = new rollin(this); break;
                         case "SafeDice": CurrentSite = new SafeDice(this); break;
                         case "SatoshiDice": CurrentSite = new SatoshiDice(this); break;
                         case "Bitvest": CurrentSite = new Bitvest(this); break;
@@ -5627,7 +5627,7 @@ namespace DiceBot
                     case "primeDiceToolStripMenuItem": CurrentSite = new PD(this); siteToolStripMenuItem.Text = "Site " + "(PD)"; break;
                     case "safediceToolStripMenuItem": CurrentSite = new SafeDice(this); siteToolStripMenuItem.Text = "Site (SD)"; break;
                     case "daDiceToolStripMenuItem": CurrentSite = new dadice(this); siteToolStripMenuItem.Text = "Site (DAD)"; break;
-                    case "rollinIOToolStripMenuItem": CurrentSite = new rollin(this); siteToolStripMenuItem.Text = "Site (RIO)"; break;
+                    //case "rollinIOToolStripMenuItem": CurrentSite = new rollin(this); siteToolStripMenuItem.Text = "Site (RIO)"; break;
                     case "bitDiceToolStripMenuItem": CurrentSite = new bitdice(this); siteToolStripMenuItem.Text = "Site (BD)"; break;
                     case "betterbetsToolStripMenuItem": CurrentSite = new BB(this); siteToolStripMenuItem.Text = "Site (BB)"; break;
                     case "wealthyDiceToolStripMenuItem": CurrentSite = new WD(this); siteToolStripMenuItem.Text = "Site (WD)"; break;
