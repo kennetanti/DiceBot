@@ -4726,15 +4726,15 @@ namespace DiceBot
         }
 
         public void updateDeposit(object Address)
-        {
+        {/*
             if (InvokeRequired)
             {
                 Invoke(new dupdateControll(updateDeposit), Address);
             }
             else
             {
-                //txtApiAddress.Text = Address.ToString();
-            }
+                txtApiAddress.Text = Address.ToString();
+            }*/
         }
 
         public void updateWins(object Wins)
@@ -6802,6 +6802,11 @@ namespace DiceBot
         private void frequentlyAskedQuestionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Process.Start("https://bot.seuntjie.com/faqs.aspx");
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
         }
 
         private void seedsToolStripMenuItem_Click(object sender, EventArgs e)
